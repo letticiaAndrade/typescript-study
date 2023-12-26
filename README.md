@@ -7,9 +7,20 @@
    - Subitem 2.1
    - Subitem 2.2
 3. Tipos primitivos 
-   - Subitem 3.1
-   - Subitem 3.2
+   - Boolean
+   - String 
+   - Number
+   - Null
+   - Undefined
+   - Void
 4. Tipos de objetos
-   - 4.1
-   - 4.2
+   - Arrays
+   - Interfaces
+   - Class
+   - Enum
+   - Tuples
 6. Outros tipos
+   - Any
+   - Never
+   - Unknown
+   - Object
