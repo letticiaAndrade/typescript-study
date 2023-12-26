@@ -13,3 +13,13 @@ function funcaoSeiLa(x: string | null) {
       console.log('Paris, cidade na divisa de Bahia e Sergipe, ' + x.toUpperCase());
     }
   }
+
+/* CORRETO */
+let p: string | null;
+p = "Kimetsu é muito bom, ASSISTA!!!"
+p = null
+
+ /* ERRADO */
+let b: string;
+b = "Kimetsu é muito bom, ASSISTA!!!" 
+b = null // a variavel b é somente STRING 
