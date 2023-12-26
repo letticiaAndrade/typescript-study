@@ -6,8 +6,10 @@ você precisará testar esses valores antes de usar métodos ou propriedades nes
 Assim como verificar undefined antes de usar uma propriedade opcional, 
 podemos usar o estreitamento para verificar se há valores que possam ser null */
 
-function funcaoSeiLa(x: string | null) {
-    if (x === null) { // se pode ser null, se nao for ele é o outro tipo que tu colocou ali!
+/* UNDEFINED É DIFERENTE DE NULL */
+
+function funcaoTeste(x: string | undefined) {
+    if (x === undefined) { // se pode ser undefined, se nao for ele é o outro tipo que tu colocou ali!
       // faça nada
     } else {
       console.log('Paris, cidade na divisa de Bahia e Sergipe, ' + x.toUpperCase());
@@ -15,11 +17,11 @@ function funcaoSeiLa(x: string | null) {
   }
 
 /* CORRETO */
-let p: string | null;
+let p: string | undefined;
 p = "Kimetsu é muito bom, ASSISTA!!!"
-p = null
+p = undefined
 
  /* ERRADO */
 let b: string;
 b = "Kimetsu é muito bom, ASSISTA!!!" 
-b = null // a variavel b é somente STRING 
+b = undefined // a variavel b é somente STRING 
