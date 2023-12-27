@@ -5,12 +5,12 @@
 1. Conceitos 
 2. TypesVSInterfaces
 3. Tipos primitivos 
-   - Boolean
-   - String 
-   - Number
-   - Null
-   - Undefined
-   - Void
+   - boolean
+   - string 
+   - number
+   - null
+   - undefined
+   - void
 4. Tipos de objetos
    - Arrays
    - Interfaces
@@ -18,10 +18,10 @@
    - Enum
    - Tuples
 6. Outros tipos
-   - Any
-   - Never
-   - Unknown
-   - Object
+   - any
+   - never
+   - unknown
+   - object
 7. Combinações de tipos
    - Interseção
    - União
