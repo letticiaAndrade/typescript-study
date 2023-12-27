@@ -3,7 +3,12 @@ e exatamente quais tipos ele contém em posições específicas. */
 
 let tupla: [string, number] = ["oi", 19]
 
+/* CORRETO */
 console.log(tupla) // saída ["oi", 19]
+//
+/* ERRADO */
+console.log(tupla[2]) // a variavel tupla só vai até o index 1
+//
 
 function testeTupla( tupla: [number, string, boolean]) {
     const a = tupla[0]
@@ -14,3 +19,4 @@ function testeTupla( tupla: [number, string, boolean]) {
 }
 
 testeTupla([21, "oiaaa", true]) // saída [21, "oiaaa", true]
+
