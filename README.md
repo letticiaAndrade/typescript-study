@@ -24,3 +24,8 @@
    - Never
    - Unknown
    - Object
+7. Combinações de tipos
+   - Interseção
+   - União
+   - Operador keyof
+   - Tipos aliases
