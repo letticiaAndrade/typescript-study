@@ -26,4 +26,24 @@
    - Interseção 
    - União 
    - Operador keyof 
-   - Tipos aliases 
+   - Tipos aliases
+8. Tipos de utilitário
+   - Partial
+   - Pick
+   - Awaited
+   - Exclude
+   - Extract
+   - Omit
+   - Parameters
+   - Record
+   - ReturnType
+   - InstanceType
+   - NonNullable
+   - Readonly
+9. Tipos avançados
+   - Tipos condicionais
+   - Tipos literais
+   - Tipos mapeados
+   - Tipos recursivos
+   - Tipos de modelo literal
+   
