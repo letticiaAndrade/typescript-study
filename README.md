@@ -4,8 +4,6 @@
 
 1. Conceitos 
 2. TypesVSInterfaces
-   - Subitem 2.1
-   - Subitem 2.2
 3. Tipos primitivos 
    - Boolean
    - String 
