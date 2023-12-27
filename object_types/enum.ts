@@ -76,6 +76,20 @@ enum EnumHeterogeneo {
   }
 
 /* Union enums and enum member types */
+// Com enums de união, o sistema de tipos é capaz de alavancar o fato de que ele conhece 
+// o conjunto exato de valores que existem no próprio enum.
+
+enum Medalha {
+  Ouro,
+  Prata,
+  Bronze
+}
+ 
+function f(a: Medalha) {
+  if (a !== Medalha.Ouro || a !== Medalha.Prata) { // por isso que essa comparação dá erro
+    //
+  }
+}
 
 /* Enums em tempo de execução */
 
