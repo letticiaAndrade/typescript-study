@@ -18,3 +18,10 @@ qualquerCoisa3 = {x: new Date()}
 let qualquerCoisa4: any = {
     x: 2
 }
+
+/* noImplicitAny
+Quando você especifica um tipo, e TypeScript pode inferi-lo a partir do contexto, 
+o compilador normalmente irá padrão para any.
+
+Você geralmente quer evitar isso, porque any isnroit tipo verificado. 
+Use o sinalizador do compilador noImplicitAny para sinalizar qualquer implícito any como um erro. */
