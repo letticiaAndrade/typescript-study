@@ -18,8 +18,8 @@
    - Enum ✅
    - Tuples ✅
 6. Outros tipos
-   - any 
-   - never 
+   - any ✅
+   - never ✅
    - unknown 
    - object ✅
 7. Combinações de tipos
