@@ -1,0 +1,2 @@
+/* Quando uma variável é declarada como “unknown”, é necessário realizar uma verificação de tipo ou 
+uma atribuição de tipo antes de utilizá-la. Isso incentiva a escrita de código mais seguro e explícito. */
