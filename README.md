@@ -20,7 +20,7 @@
 6. Outros tipos
    - any ✅
    - never ✅
-   - unknown 
+   - unknown ✅
    - object ✅
 7. Combinações de tipos
    - Interseção 
@@ -46,4 +46,7 @@
    - Tipos mapeados
    - Tipos recursivos
    - Tipos de modelo literal
-   
+10. Tipos de Assertions
+    - as const ✅
+    - as any
+    - as [type]
