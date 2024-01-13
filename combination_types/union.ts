@@ -5,8 +5,8 @@ function testeUniao(x:string | number) {
     console.log(x)
 }
 
-testeUniao(1) // saída: 
-testeUniao("deu bom!") // saída:
+testeUniao(1) // saída: 1 
+testeUniao("deu bom!") // saída: "deu bom!"
 testeUniao(true) // ERRO, a função só aceita string e number como parâmetros 
 
 // ERRADO
