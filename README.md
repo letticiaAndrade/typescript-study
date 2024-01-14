@@ -23,10 +23,10 @@
    - unknown ✅
    - object ✅
 7. Combinações de tipos
-   - Interseção 
-   - União 
+   - Interseção ✅ 
+   - União ✅
    - Operador keyof 
-   - Tipos aliases
+   - Tipos aliases ✅
 8. Tipos de utilitário
    - Partial
    - Pick
