@@ -25,7 +25,7 @@
 7. Combinações de tipos
    - Interseção ✅ 
    - União ✅
-   - Operador keyof 
+   - Operador keyof ✅
    - Tipos aliases ✅
 8. Tipos de utilitário
    - Partial
