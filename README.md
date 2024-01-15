@@ -48,5 +48,5 @@
    - Tipos de modelo literal
 10. Tipos de Assertions
     - as const ✅
-    - as any
-    - as [type]
+    - as any ✅
+    - as [type] ✅
