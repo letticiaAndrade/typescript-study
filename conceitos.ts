@@ -13,3 +13,11 @@
 // Por que trabalhar em typescript se vou executar em javascript?
 
 // programar em typescript facilita a detecção de bugs
+
+
+// primeiros passos para configuração 
+// começar o projeto node com package // npm init -y
+// instalar o typescript // npm install -D typescript 
+// instalar o ts-node // npm install -D ts-node
+// instalar o nodemon // npm install -D nodemon
+// criar o tsconfig // npx tsc -init
