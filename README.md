@@ -2,7 +2,7 @@
 
 ### Estrutura de pastas
 
-1. Conceitos 
+1. Conceitos ✅
 2. TypesVSInterfaces
 3. Tipos primitivos 
    - boolean ✅
